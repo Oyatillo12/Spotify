@@ -43,7 +43,7 @@ function CustomCard({ onClick, item }) {
                         <img className='w-[250px]  h-[250px] object-cover' src={item.img} alt="Music img" />
                         <div className='p-6'>
                             <h3 className='text-white text-[18px] mb-2 line-clamp-1'>{item.name}</h3>
-                            <p className='text-white text-[16px] opacity-80'>Artist: {item.artist}</p>
+                            <p className='text-white text-[16px] opacity-80 line-clamp-1'>Artist: {item.artist}</p>
                             <p className='text-white line-clamp-1 text-[16px] opacity-80'>Album: {item.album}</p>
                         </div>
                     </div>
