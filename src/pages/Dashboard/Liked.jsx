@@ -2,7 +2,7 @@ import React from 'react'
 
 function Liked() {
   return (
-    <div>
+    <div className='login-wrapper'>
       
     </div>
   )
